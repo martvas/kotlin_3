@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">kotlin_2</string>
+    <string name="new_note_title">Новая заметка</string>
+    <string name="btn_save_title">Сохранить</string>
+    <string name="hint_note_text">Текст заметки</string>
+
+    <string-array name="note_colors">
+        <item>White</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Violet</item>
+        <item>Pink</item>
+    </string-array>
+</resources>
