@@ -8,8 +8,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:name="android.support.multidex.MultiDexApplication"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.main.MainActivity">
+        <activity android:name="ru.martin.kotlin.ui.main.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,7 +18,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".ui.note.NoteActivity"/>
+        <activity android:name="ru.martin.kotlin.ui.note.NoteActivity"/>
     </application>
 
 </manifest>
